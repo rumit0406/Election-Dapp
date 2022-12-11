@@ -22,7 +22,9 @@ contract Election {
     );
 
     constructor() public {
-        addCandidate("Candidate 1");
+        addCandidate("Indian National Congress (INC)");
+        addCandidate("Bharatiya Janta Party (BJP)");
+        addCandidate("Aam Aadmi Party (AAP)");
         addCandidate("Candidate 2");
     }
 
